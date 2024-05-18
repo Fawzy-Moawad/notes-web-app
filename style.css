@@ -5,7 +5,7 @@ body{
     margin: 0;
     padding:0;
     box-sizing: border-box;
-    background-color: black;
+    background-color: #B3C8CF;
      color: white; 
 }
 *{
@@ -15,13 +15,13 @@ body{
 
 .title{
     font-weight: bold;
-    color: rgb(247, 44, 44);
+    color: #E5DDC5;
     font-size: 40px;
     /* position:sticky; */
      padding: 2px 5px;
      margin-left: 3px;
 }
-header img{
+header note-icon{
     width:75px;
     margin-top: 3px;
     margin-right: 10px;
@@ -72,7 +72,7 @@ header img{
 .wrapper li{
     height: 250px;
     list-style: none;
-    background: rgb(185, 47, 47);
+    background: #F1EEDC;
     border-radius: 20px;
     padding:15px;
 }
@@ -118,7 +118,7 @@ header img{
 }
 .note .bottom-content{
     padding: 10px;
-    border-top: 1px solid rgb(175, 44, 44);
+    border-top: 1px solid #B3C8CF;
 }
 .bottom-content span{
     color: #d8d8d8;
@@ -155,7 +155,7 @@ header img{
     justify-content: flex-start;
 }
 .menu li:hover{
-    background: rgb(189, 74, 74);
+    background-color: #B3C8CF;
 }
 .menu li i{
     padding-right: 10px;
@@ -177,7 +177,7 @@ header img{
     max-width: 450px;
     width: 100%;
     justify-content: center;
-    background: rgb(247, 44, 44);
+    background-color: #B3C8CF;
     transform: translate(50%, -50%);
 }
 .popup-box, .popup-box .popup{
@@ -191,7 +191,7 @@ header img{
 }
 .popup .content{
     width: calc(100% - 15px);
-    background: rgb(160, 39, 39);
+    background-color: #B3C8CF;
     border-radius: 5px;
 }
 .popup .content header{
@@ -231,7 +231,7 @@ form .row label{
     padding: 4px;
 }
 .content form button:hover{
-    background: rgb(189, 74, 74);
+    background-color: #E5DDC5;
 }
 .content form button{
     margin-top: 8px;
@@ -244,7 +244,7 @@ form .row label{
     color: white;
     cursor: pointer;
     border-radius: 5px;
-    background: rgb(247, 44, 44);
+    background-color: #E5DDC5;
 }
 .content form #file{
     margin-top: 8px;
@@ -257,7 +257,7 @@ form .row label{
     color: white;
     cursor: pointer;
     border-radius: 5px;
-    background: rgb(247, 44, 44);
+    background-color: #E5DDC5;;
     justify-content: center;
 }
 
@@ -271,7 +271,7 @@ form .row label{
         max-width: 370px;
         width: 100%;
         justify-content: center;
-        background: rgb(247, 44, 44);
+        background-color: #E5DDC5;;
         transform: translate(50%, -50%);
     }
 }
@@ -286,7 +286,7 @@ form .row label{
         max-height: 350px;
         width: 100%;
         justify-content: center;
-        background: rgb(247, 44, 44);
+        background-color: #E5DDC5;;
         transform: translate(50%, -50%);
     }
 }
